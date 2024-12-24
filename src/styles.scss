@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// regular style toast
+@import 'ngx-toastr/toastr';
+
+// bootstrap style toast
+// or import a bootstrap 4 alert styled design (SASS ONLY)
+// should be after your bootstrap imports, it uses bs4 variables, mixins, functions
+//@import 'ngx-toastr/toastr-bs4-alert';
+
+// if you'd like to use it without importing all of bootstrap it requires
+//@import 'bootstrap/scss/functions';
+//@import 'bootstrap/scss/variables';
+//@import 'bootstrap/scss/mixins';
+// bootstrap 4
+//@import 'ngx-toastr/toastr-bs4-alert';
+// boostrap 5
+//@import 'ngx-toastr/toastr-bs5-alert';
+
+.login-container {
+  width: 800px !important;
+  margin-top: 15%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
